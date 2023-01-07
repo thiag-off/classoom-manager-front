@@ -1,6 +1,10 @@
 body{
 
     margin: 5em;
+    padding-left:120px ;
+    padding-right:120px ;
+  
+    
 
 }
 
@@ -26,9 +30,11 @@ button:hover{
 
 .course-list{
     
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    
+    display: grid;
+    place-content: center;        
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr) );
+   
     
 }
 
@@ -37,8 +43,8 @@ button:hover{
 .course-card{
 
     display: flex;
-    flex-direction: column;      
-    justify-content: space-between;
+    flex-direction: column;  
+    justify-self: center;    
     height: 300px;
     width: 200px;
     min-width: 100px;

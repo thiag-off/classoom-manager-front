@@ -5,12 +5,15 @@
 
   <button (click)="getCourses()">Cursos</button>
 
+ 
+
   <main class="course-list">
 
   
 
       <section *ngFor=" let course of courses | async" class="course-card">
 
+        
         <header class="card-text">
 
         <h2>{{course.title}}</h2>
@@ -23,7 +26,7 @@
           <button>Enroll  </button>
         
         </footer>
-
+        
       </section>
     
 

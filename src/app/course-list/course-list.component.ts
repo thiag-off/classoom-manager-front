@@ -14,6 +14,9 @@ export class CourseListComponent implements OnInit {
  
 
   ngOnInit(): void {
+
+    this.getCourses();
+
   }
   readonly ROOT_URL : string = 'http://localhost:8080/api/v1';
 

@@ -8,3 +8,13 @@ body{
     background-color: rgb(255, 252, 242);
     font-family: 'DM Mono', monospace;
 }
+
+app-course-list{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
