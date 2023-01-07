@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Course } from '../course';
+import { Course } from '../course/course';
+
 
 @Component({
   selector: 'app-course-list',
