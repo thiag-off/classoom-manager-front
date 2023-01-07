@@ -4,13 +4,15 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { CourseListComponent } from './course-list/course-list.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
+    CourseListComponent
   ],
   imports: [  
     BrowserModule,
