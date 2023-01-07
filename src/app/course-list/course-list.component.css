@@ -33,6 +33,7 @@ button:hover{
     
     display: grid;
     place-content: center;        
+    justify-content: start;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr) );
    
     
