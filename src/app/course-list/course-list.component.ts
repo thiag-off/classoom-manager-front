@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Course } from '../course/course';
+import { CourseService } from '../course/course.service';
 
 
 @Component({
@@ -18,18 +19,13 @@ export class CourseListComponent implements OnInit {
     this.getCourses();
 
   }
-  readonly ROOT_URL : string = 'http://localhost:8080/api/v1';
+ 
+
+  constructor(private courseService : CourseService){}
 
   courses!: Observable<Course[]>;
-  
-
-  constructor(private http : HttpClient){}
 
   getCourses(){
-    this.courses = this.http.get<Course[]>(this.ROOT_URL + '/course');
-  }
-
-  getLectures(){
-
+    this.courses = this.courseService.getCourses();
   }
 }

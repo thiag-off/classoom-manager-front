@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CourseListComponent } from './course-list/course-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
+import { CourseDetailsComponent } from './course-details/course-details.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { StudentListComponent } from './student-list/student-list.component';
     AppComponent,
     NavBarComponent,
     CourseListComponent,
-    StudentListComponent
+    StudentListComponent,  
+    CourseDetailsComponent
   ],
   imports: [  
     BrowserModule,
