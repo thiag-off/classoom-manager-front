@@ -1,12 +1,13 @@
+
+
 .top-bar{
     display: flex;
     margin: 0;
     
-
-    background-color: #b3b0a9;
+    background-color: #4267B2;
     height: 50px;
     width: 100%;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,1);
     transition: 0.3s;
     position: fixed;
     top: 0;
@@ -30,11 +31,14 @@
     margin-right: 50px;
     color: rgb(15, 15, 15);
     font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    transition: 0.3s;
+    border-radius: 2px;
 
 }
 
 
 .bar-text:hover {
-    background-color: #fcfff2;
+    background-color: #395999;
   }

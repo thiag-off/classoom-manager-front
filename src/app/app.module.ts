@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CourseListComponent } from './course-list/course-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CourseDetailsComponent } from './course-details/course-details.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { CourseDetailsComponent } from './course-details/course-details.componen
     NavBarComponent,
     CourseListComponent,
     StudentListComponent,  
-    CourseDetailsComponent
+    CourseDetailsComponent, HomeComponent
   ],
   imports: [  
     BrowserModule,
